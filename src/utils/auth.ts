@@ -23,6 +23,7 @@ export const checkAuthUser = (
     navigate(redireccionRolIncorrecto);
     return;
   }
+  
 };
 
 export const logout = () => {
